@@ -1,0 +1,19 @@
+{
+  "name": "outdoor-lovers",
+  "version": "1.0.0",
+  "description": "Web for outdoor enthusiasts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/annabala/outdoor-lovers-web-project.git"
+  },
+  "author": "Anna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/annabala/outdoor-lovers-web-project/issues"
+  },
+  "homepage": "https://github.com/annabala/outdoor-lovers-web-project#readme"
+}
