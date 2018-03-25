@@ -6,13 +6,27 @@
         
         
         <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=latin-ext" rel="stylesheet">
-
+        <link rel="stylesheet" type="text/css" href="css/icon-font/flaticon.css"> 
         <link rel="stylesheet" href="css/style.css">
         <link rel="shortcut icon" type="image/png" href="images/favicon.png">
         
         <title>Outdoor Lovers | Look for adventures</title>
     </head>
     <body>
+       <div class="navigation">
+          <input type="checkbox" class="navigation__checkbox" id="navi-toggle"> 
+          <label for="navi-toggle" class="navigation__button">Menu</label>
+          <div class="navigation__background">&nbsp;</div>
+          <nav class="navigation__nav">
+              <ul class="navigation__list">
+                  <li class="navigation__item"><a href="#" class="navigation__link">O nas</a></li>
+                  <li class="navigation__item"><a href="#" class="navigation__link">Nasza oferta</a></li>
+                  <li class="navigation__item"><a href="#" class="navigation__link">Nasz zespół</a></li>
+                  <li class="navigation__item"><a href="#" class="navigation__link">Dołącz do nas</a></li>
+                  <li class="navigation__item"><a href="#" class="navigation__link">Kontakt</a></li>
+              </ul>
+          </nav>
+       </div>
         <header class="header">
             <div class="header__logo-box">
                 <img src="images/logo.png" alt="logo" class="header__logo">
@@ -28,24 +42,16 @@
         <main>
             <section class="section-about">
                 <div class="u-center-text u-margin-bottom-big">
-                    <h2 class="heading-secondary">
-                    Wybierz kierunek i ruszaj w świat
-                    </h2>
+                    <h2 class="heading-secondary">Wybierz kierunek i ruszaj w świat</h2>
                 </div>
                 <div class="row">
                     <div class="col-1-of-2">
-                        <h3 class="heading-tertiary u-margin-bottom-small">
-                            Długo na to czekałeś...
-                        </h3>
-                        <p class="paragraph">
-                            Wreszcie nadszedł czas urlopu, nie czekaj dłużej, ruszaj w góry.
-                        </p>
+                        <h3 class="heading-tertiary u-margin-bottom-small">Długo na to czekałeś...</h3>
+                        <p class="paragraph">Wreszcie nadszedł czas urlopu, nie czekaj dłużej, ruszaj w góry.</p>
                         <h3 class="heading-tertiary u-margin-bottom-small">
                             Do zakochania jeden krok...
                         </h3>
-                        <p class="paragraph">
-                            Tak niewiele dzieli Cię od zachwytu, wybierz cel i ciesz się pięknymi widokami na trasie.
-                        </p>
+                        <p class="paragraph">Tak niewiele dzieli Cię od zachwytu, wybierz cel i ciesz się pięknymi widokami na trasie.</p>
                         <a href="#" class="btn-text">Dowiedz się wiecej &rarr;</a>
                     </div>
                     <div class="col-1-of-2">
@@ -57,7 +63,268 @@
                     </div>
                 </div>
             </section>
+            <section class="section-features">
+                <div class="row">
+                    <div class="col-1-of-4">
+                        <div class="feature-box">
+                            <i class="feature-box__icon flaticon-global"></i>
+                            <h3 class="heading-tertiary u-margin-bottom-small">Odkryj nowe zakątki świata</h3>
+                            <p class="feature-box__text">Tak niewiele dzieli Cię od zachwytu, wybierz cel i ciesz się pięknymi widokami na trasie.</p>    
+                        </div>
+                    </div>
+                    <div class="col-1-of-4">
+                        <div class="feature-box">
+                            <i class="feature-box__icon flaticon-sports"></i>
+                            <h3 class="heading-tertiary u-margin-bottom-small">Aktywnie spędzaj czas</h3>
+                            <p class="feature-box__text">Tak niewiele dzieli Cię od zachwytu, wybierz cel i ciesz się pięknymi widokami na trasie.</p>    
+                        </div>
+                    </div>
+                    <div class="col-1-of-4">
+                        <div class="feature-box">
+                            <i class="feature-box__icon flaticon-tool"></i>
+                            <h3 class="heading-tertiary u-margin-bottom-small">Odwaga to Twoje drugie imię </h3>
+                            <p class="feature-box__text">Tak niewiele dzieli Cię od zachwytu, wybierz cel i ciesz się pięknymi widokami na trasie.</p>    
+                        </div>
+                    </div>
+                    <div class="col-1-of-4">
+                        <div class="feature-box">
+                            <i class="feature-box__icon flaticon-people"></i>
+                            <h3 class="heading-tertiary u-margin-bottom-small">Spełniaj swoje marzenia</h3>
+                            <p class="feature-box__text">Tak niewiele dzieli Cię od zachwytu, wybierz cel i ciesz się pięknymi widokami na trasie.</p>    
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section-destinations">
+                <div class="u-center-text u-margin-bottom-big">
+                    <h2 class="heading-secondary">Nasze ulubione miejsca</h2>
+                </div>
+                <div class="row">
+                    <div class="col-1-of-3">
+                        <div class="card">
+                            <div class="card__side card__side--front">
+                                <div class="card__picture card__picture--1">
+                                    &nbsp;
+                                </div>
+                                <h4 class="card__heading">
+                                   <span class="card__heading-span card__heading-span--1">Zimowe Karkonosze</span>
+                                </h4>
+                                <div class="card__details">
+                                    <ul>
+                                        <li>Narty</li>
+                                        <li>Bieganie</li>
+                                        <li>Zdobywanie szczytów</li>
+                                        <li>Schroniska</li>
+                                        <li>Czechy</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card__side card__side--back card__side--back-1">
+                                <div class="card__cta">
+                                    <div class="card__price-box">
+                                        <p class="card__price-only">Only</p>
+                                        <p class="card__price-value">259</p>
+                                    </div>
+                                    <a href="#" class="btn btn--white">Book now</a>
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-1-of-3">
+                        <div class="card">
+                            <div class="card__side card__side--front">
+                                <div class="card__picture card__picture--2">
+                                    &nbsp;
+                                </div>
+                                <h4 class="card__heading">
+                                   <span class="card__heading-span card__heading-span--2">Wodna przygoda</span>
+                                </h4>
+                                <div class="card__details">
+                                    <ul>
+                                        <li>Narty</li>
+                                        <li>Bieganie</li>
+                                        <li>Zdobywanie szczytów</li>
+                                        <li>Schroniska</li>
+                                        <li>Czechy</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card__side card__side--back card__side--back-2">
+                                <div class="card__cta">
+                                    <div class="card__price-box">
+                                        <p class="card__price-only">Only</p>
+                                        <p class="card__price-value">259</p>
+                                    </div>
+                                    <a href="#" class="btn btn--white">Book now</a>
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-1-of-3">
+                        <div class="card">
+                            <div class="card__side card__side--front">
+                                <div class="card__picture card__picture--3">
+                                    &nbsp;
+                                </div>
+                                <h4 class="card__heading">
+                                   <span class="card__heading-span card__heading-span--3">Wulkaniczna energia</span>
+                                </h4>
+                                <div class="card__details">
+                                    <ul>
+                                        <li>Narty</li>
+                                        <li>Bieganie</li>
+                                        <li>Zdobywanie szczytów</li>
+                                        <li>Schroniska</li>
+                                        <li>Czechy</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card__side card__side--back card__side--back-3">
+                                <div class="card__cta">
+                                    <div class="card__price-box">
+                                        <p class="card__price-only">Only</p>
+                                        <p class="card__price-value">259</p>
+                                    </div>
+                                    <a href="#" class="btn btn--white">Book now</a>
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="u-center-text u-margin-top-huge">
+                    <a href="#" class="btn btn--blue">Discover all destinations</a>
+                </div>
+            </section>
+            <section class="section-team">
+               <div class="bg-video">
+                   <video class="bg-video__content" autoplay muted loop>
+                       <source src="images/video.mp4" type="video/mp4">
+                       <source src="images/video.webm" type="video/webm">
+                       Twoja przeglądarka tego nie obsługuje.
+                   </video>
+               </div>
+                <div class="u-center-text u-margin-bottom-big">
+                    <h2 class="heading-secondary">Poznaj nasz zespół</h2>
+                </div>
+                <div class="row">
+                    <div class="team">
+                        <figure class="team__shape">
+                            <img src="images/team-f.jpg" alt="teammate" class="team__img">
+                            <figcaption class="team__caption">
+                                Marry Smith
+                            </figcaption>   
+                        </figure>
+                        <div class="team__text">
+                            <h3 class="heading-tertiary u-margin-bottom-small">Wspinanie się to moja pasja</h3>
+                            <p>
+                                Tak niewiele dzieli Cię od zachwytu, wybierz cel i ciesz się pięknymi widokami na trasie.Tak niewiele dzieli Cię od zachwytu, wybierz cel widokami na trasie. Tak dzieli Cię od zachwytu, wybierz cel i ciesz się pięknymi widokami na trasie.Tak niewiele dzieli Cię od zachwytu, wybierz cel.
+                            </p>
+                        </div>
+                    </div>
+                </div>   
+                <div class="row">
+                    <div class="team">
+                        <figure class="team__shape">
+                            <img src="images/team-m.jpg" alt="teammate" class="team__img">
+                            <figcaption class="team__caption">
+                                Tim Curtis
+                            </figcaption>   
+                        </figure>
+                        <div class="team__text">
+                            <h3 class="heading-tertiary u-margin-bottom-small">Najbardziej kocham zimę i narty!</h3>
+                            <p>
+                                Tak niewiele dzieli Cię od zachwytu, wybierz cel i ciesz się pięknymi widokami na trasie.Tak niewiele dzieli Cię od zachwytu, wybierz cel widokami na trasie. Tak dzieli Cię od zachwytu, wybierz cel i ciesz się pięknymi widokami na trasie.Tak niewiele dzieli Cię od zachwytu, wybierz cel.
+                            </p>
+                        </div>
+                    </div>
+                </div>   
+                <div class="row">
+                    <div class="team">
+                        <figure class="team__shape">
+                            <img src="images/team-f2.jpg" alt="teammate" class="team__img">
+                            <figcaption class="team__caption">
+                                Hannah Beth
+                            </figcaption>   
+                        </figure>
+                        <div class="team__text">
+                            <h3 class="heading-tertiary u-margin-bottom-small">Zdobyłam swój pierwszy ośmiotysięcznik</h3>
+                            <p>
+                                Tak niewiele dzieli Cię od zachwytu, wybierz cel i ciesz się pięknymi widokami na trasie.Tak niewiele dzieli Cię od zachwytu, wybierz cel widokami na trasie. Tak dzieli Cię od zachwytu, wybierz cel i ciesz się pięknymi widokami na trasie.Tak niewiele dzieli Cię od zachwytu, wybierz cel.
+                            </p>
+                        </div>
+                    </div>
+                </div> 
+                <div class="u-center-text u-margin-top-huge">
+                    <a href="#" class="btn-text">Dołącz do nas &rarr;</a>
+                </div>  
+            </section>
+            <section class="section-book">
+                <div class="row">
+                    <div class="book">
+                        <div class="book__form">
+                            <form action="#" class="form">
+                                <div class="u-margin-bottom-medium">
+                                    <h2 class="heading-secondary">Zapisz się na kurs</h2>
+                                </div>
+                                <div class="form__group">
+                                    <input type="text" class="form__input" placeholder="Imię i nazwisko" id="name" required>
+                                    <label for="name" class="form__label">Imię i nazwisko</label>
+                                </div>
+                                <div class="form__group">
+                                    <input type="email" class="form__input" placeholder="Adres email" id="Adres email" required>
+                                    <label for="email" class="form__label">Adres email</label>
+                                </div>
+                                <div class="form__group .u-margin-bottom-medium">
+                                    <div class="form__radio-group">
+                                        <input type="radio" class="form__radio-input" id="individual" name="size">
+                                        <label for="individual" class="form__radio-label">
+                                            Indywidualnie
+                                            <span class="form__radio-button"></span>
+                                        </label>
+                                    </div>
+                                    <div class="form__radio-group">
+                                        <input type="radio" class="form__radio-input" id="group" name="size">
+                                        <label for="group" class="form__radio-label">
+                                            W grupie
+                                            <span class="form__radio-button"></span>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="form__group">
+                                    <button class="btn btn--blue">Dalej &rarr;</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>    
+            </section>
         </main>
+        <footer class="footer">
+            <div class="footer__logo-box">
+                <img src="images/logo-big.png" alt="logo" class="footer__logo">
+                <div class="u-margin-bottom-medium">
+                    <h2 class="heading-secondary">Outdoor lovers</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-1-of-2">
+                    <div class="footer__navigation">
+                        <ul class="footer__list">
+                            <li class="footer__item"><a href="#" class="footer__link">O nas</a></li>
+                            <li class="footer__item"><a href="#" class="footer__link">Kontakt</a></li>
+                            <li class="footer__item"><a href="#" class="footer__link">Praca</a></li>
+                            <li class="footer__item"><a href="#" class="footer__link">Polityka prywatności</a></li>
+                            <li class="footer__item"><a href="#" class="footer__link">Warunki</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-1-of-2">
+                    <p class="footer__copyright">
+                        Zaprojektowane przez <a href="#" class="footer__link">Jonas Schmedtmann</a> w kursie "Advanced CSS and Sass". Zakodowane i wprowadzone zmiany przez <a href="#" class="footer__link">Anna Bała</a>. Copyright &copy; by Jonas Schmedtmann
+                    </p>
+                </div>
+            </div>
+        </footer>
         <!--
         <section class="grid-test">
             <div class="row">

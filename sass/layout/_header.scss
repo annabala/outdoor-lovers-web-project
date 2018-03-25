@@ -9,6 +9,7 @@
     background-size: cover;
     background-position: center;
     position: relative;
+    -webkit-clip-path: polygon(0 0, 100% 1%, 100% 65%, 50% 100%, 0 65%);
     clip-path: polygon(0 0, 100% 1%, 100% 65%, 50% 100%, 0 65%);
     &__logo-box {
         position: absolute;
@@ -16,13 +17,11 @@
         left: 4rem;
     }
     &__logo {
-        height: 6rem;
+        height: 8rem;
     }
     &__text-box {
-        position: absolute;
-        top: 40%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+        @include stay-center;
+        
         text-align: center;
     }
 }
