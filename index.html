@@ -15,7 +15,9 @@
     <body>
        <div class="navigation">
           <input type="checkbox" class="navigation__checkbox" id="navi-toggle"> 
-          <label for="navi-toggle" class="navigation__button">Menu</label>
+          <label for="navi-toggle" class="navigation__button">
+              <span class="navigation__icon">&nbsp;</span>
+          </label>
           <div class="navigation__background">&nbsp;</div>
           <nav class="navigation__nav">
               <ul class="navigation__list">
@@ -36,7 +38,7 @@
                     <span class="heading-primary--main">Outdoor lovers</span>
                     <span class="heading-primary--sub">Z nami poznasz świat!</span>
                 </h1>
-                <a href="#" class="btn btn--white btn--animated">Nasza oferta</a>
+                <a href="#section-destinations" class="btn btn--white btn--animated">Nasza oferta</a>
             </div>
         </header>
         <main>
@@ -95,7 +97,7 @@
                     </div>
                 </div>
             </section>
-            <section class="section-destinations">
+            <section class="section-destinations" id="section-destinations">
                 <div class="u-center-text u-margin-bottom-big">
                     <h2 class="heading-secondary">Nasze ulubione miejsca</h2>
                 </div>
@@ -125,7 +127,7 @@
                                         <p class="card__price-only">Only</p>
                                         <p class="card__price-value">259</p>
                                     </div>
-                                    <a href="#" class="btn btn--white">Book now</a>
+                                    <a href="#popup" class="btn btn--white">Book now</a>
                                 </div> 
                             </div>
                         </div>
@@ -155,7 +157,7 @@
                                         <p class="card__price-only">Only</p>
                                         <p class="card__price-value">259</p>
                                     </div>
-                                    <a href="#" class="btn btn--white">Book now</a>
+                                    <a href="#popup" class="btn btn--white">Book now</a>
                                 </div> 
                             </div>
                         </div>
@@ -185,7 +187,7 @@
                                         <p class="card__price-only">Only</p>
                                         <p class="card__price-value">259</p>
                                     </div>
-                                    <a href="#" class="btn btn--white">Book now</a>
+                                    <a href="#popup" class="btn btn--white">Book now</a>
                                 </div> 
                             </div>
                         </div>
@@ -325,6 +327,23 @@
                 </div>
             </div>
         </footer>
+        <div class="popup" id="popup">
+            <div class="popup__content">
+                <div class="popup__left">
+                    <img src="images/destination-1.jpg" alt="Tour photo" class="popup__img">
+                    <img src="images/destination-4.jpg" alt="Tour photo" class="popup__img">
+                </div>
+                <div class="popup__right">
+                    <a href="#section-destination" class="popup__close">&times;</a>
+                    <h2 class="heading-secondary u-margin-bottom-small">Zapisz się teraz!</h2>
+                    <h3 class="heading-tertiary u-margin-bottom-small">Ważne &ndash; Zapoznaj się z warunkami uczestnictwa w kursie</h3>
+                    <p class="popup__text u-margin-bottom-medium">
+                        Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym. Został po raz pierwszy użyty w XV w. przez nieznanego drukarza do wypełnienia tekstem próbnej książki. Pięć wieków później zaczął być używany przemyśle elektronicznym, pozostając praktycznie niezmienionym. Spopularyzował się w latach 60. XX w. wraz z publikacją arkuszy Letrasetu, zawierających fragmenty Lorem Ipsum, a ostatnio z zawierającym różne wersje Lorem Ipsum oprogramowaniem przeznaczonym do realizacji druków na komputerach osobistych, jak Aldus PageMaker
+                    </p>
+                    <a href="#" class="btn btn--blue">Zapisz się</a>
+                </div>
+            </div>
+        </div>
         <!--
         <section class="grid-test">
             <div class="row">
