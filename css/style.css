@@ -822,8 +822,7 @@ u-margin-top-huge {
       clip-path: polygon(0 0, 100% 0, 100% 90%, 50% 100%, 0 90%); } }
   @media (max-width: 37.5em) {
     .header {
-      clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 100%, 0 100%);
-      height: 50vh; } }
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 100%, 0 100%); } }
   .header__logo-box {
     position: absolute;
     top: 4rem;
@@ -969,7 +968,7 @@ transparent
   margin-top: -40vh; }
   @media (max-width: 56.25em) {
     .section-about {
-      padding: 26rem 0 36rem 0;
+      padding: 30rem 0;
       margin-top: -20vh; } }
 
 .section-features {
