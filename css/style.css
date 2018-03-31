@@ -816,10 +816,14 @@ u-margin-top-huge {
   position: relative;
   -webkit-clip-path: polygon(0 0, 100% 1%, 100% 85%, 50% 100%, 0 85%);
   clip-path: polygon(0 0, 100% 0, 100% 85%, 50% 100%, 0 85%); }
-  @media (max-width: 37.5em) {
+  @media (max-width: 56.25em) {
     .header {
       -webkit-clip-path: polygon(0 0, 100% 0%, 100% 90%, 50% 100%, 0 90%);
       clip-path: polygon(0 0, 100% 0, 100% 90%, 50% 100%, 0 90%); } }
+  @media (max-width: 37.5em) {
+    .header {
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 100%, 0 100%);
+      height: 50vh; } }
   .header__logo-box {
     position: absolute;
     top: 4rem;
@@ -842,7 +846,7 @@ u-margin-top-huge {
   height: 7rem;
   width: 7rem;
   border-radius: 50%;
-  z-index: 2000;
+  z-index: 3000;
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.1);
   cursor: pointer;
   position: fixed;
@@ -865,7 +869,7 @@ u-margin-top-huge {
   top: 6.5rem;
   right: 6.5rem;
   background-image: radial-gradient(#9CECFB, #0052D4);
-  z-index: 1000;
+  z-index: 2000;
   transition: transform 0.8s cubic-bezier(0.86, 0, 0.07, 1); }
   @media (max-width: 56.25em) {
     .navigation__background {
@@ -881,7 +885,7 @@ u-margin-top-huge {
   position: fixed;
   top: 0;
   right: 0;
-  z-index: 1500;
+  z-index: 4000;
   opacity: 0;
   width: 0;
   transition: all 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55); }
@@ -965,7 +969,7 @@ transparent
   margin-top: -40vh; }
   @media (max-width: 56.25em) {
     .section-about {
-      padding: 20rem 0;
+      padding: 26rem 0 36rem 0;
       margin-top: -20vh; } }
 
 .section-features {
@@ -981,6 +985,10 @@ transparent
       -webkit-clip-path: polygon(50% 5%, 100% 0, 100% 100%, 0 100%, 0 0);
       clip-path: polygon(50% 5%, 100% 0, 100% 100%, 0 100%, 0 0);
       padding: 10rem 0; } }
+  @media (max-width: 37.5em) {
+    .section-features {
+      -webkit-clip-path: polygon(50% 0, 100% 0, 100% 100%, 0 100%, 0 0);
+      clip-path: polygon(50% 0, 100% 0, 100% 100%, 0 100%, 0 0); } }
 
 .section-destinations {
   background-color: #f8f9f9;
