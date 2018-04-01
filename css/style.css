@@ -343,8 +343,8 @@ u-margin-top-huge {
     text-align: right;
     color: #fff;
     position: absolute;
-    top: 10rem;
-    right: 2rem;
+    top: 0;
+    right: 0;
     width: 75%; }
   .card__heading-span {
     padding: 1rem 1.5rem 0 1.5rem;
@@ -461,9 +461,10 @@ u-margin-top-huge {
       transform: scale(0.9); }
 
 .feature-box {
+  height: 32rem;
   background-color: rgba(255, 255, 255, 0.8);
   font-size: 1.5rem;
-  padding: 2.5rem;
+  padding: 2em;
   text-align: center;
   border-radius: 3px;
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
@@ -568,7 +569,7 @@ u-margin-top-huge {
 .form__radio-input:checked + .form__radio-label .form__radio-button::after {
   opacity: 1; }
 
-.team {
+.story {
   width: 75%;
   margin: 0 auto;
   background-color: rgba(255, 255, 255, 0.6);
@@ -578,17 +579,17 @@ u-margin-top-huge {
   padding-left: 9rem;
   font-size: 1.6rem;
   transform: skewX(-12deg); }
-  .team > * {
+  .story > * {
     transform: skewX(12deg); }
   @media (max-width: 56.25em) {
-    .team {
+    .story {
       width: 100%;
       padding: 4rem;
       padding-left: 7rem; } }
   @media (max-width: 37.5em) {
-    .team {
+    .story {
       transform: skewX(0); } }
-  .team__shape {
+  .story__shape {
     width: 15rem;
     height: 15rem;
     float: left;
@@ -599,19 +600,19 @@ u-margin-top-huge {
     transform: translateX(-3rem) skewX(12deg);
     position: relative; }
     @media (max-width: 37.5em) {
-      .team__shape {
+      .story__shape {
         transform: translateX(-3rem) skewX(0); } }
-  .team__img {
+  .story__img {
     height: 100%;
     transform: translateX(-4rem) scale(1.2);
     backface-visibility: hidden;
     transition: all .5s; }
-  .team__text {
+  .story__text {
     transform: skewX(12deg); }
     @media (max-width: 37.5em) {
-      .team__text {
+      .story__text {
         transform: skewX(0); } }
-  .team__caption {
+  .story__caption {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -623,10 +624,10 @@ u-margin-top-huge {
     opacity: 0;
     transition: all .5s;
     backface-visibility: hidden; }
-  .team:hover .team__caption {
+  .story:hover .story__caption {
     opacity: 1;
     transform: translate(-50%, -50%); }
-  .team:hover .team__img {
+  .story:hover .story__img {
     transform: translateX(-4rem) scale(1);
     filter: blur(2px) brightness(80%); }
 
@@ -845,7 +846,7 @@ u-margin-top-huge {
   height: 7rem;
   width: 7rem;
   border-radius: 50%;
-  z-index: 3000;
+  z-index: 5000;
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.1);
   cursor: pointer;
   position: fixed;
