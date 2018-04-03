@@ -1,0 +1,33 @@
+.team-box {
+    height: 32rem;
+    background-color: rgba($color-white, .8);
+    font-size: 1.5rem;
+    padding: 1rem;
+    text-align: center;
+    border-radius: $border-shape-small;
+    box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
+    transition: all .2s;
+    
+    @include respond(tab-port) {
+        padding: 1.5rem;
+    }
+    
+    &__img {
+        width: 100%;
+        
+        @include respond(tab-port) {
+            margin-bottom: 0;
+        }
+    }
+    
+    &____imgtest {
+        height: 15rem;
+        width: 15rem;
+        background-image: url(../../images/team-1.jpg);
+        background-size: cover;
+    }
+    
+    &:hover {
+        transform: translateY(-1.5rem) scale(1.03);
+    }
+}
